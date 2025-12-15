@@ -18,7 +18,9 @@ export default function RootLayout({
         <header>
           <Header />
         </header>
-        <main style={{ flex: 1 }}>{children}</main>
+        <main style={{ flex: 1, minHeight: 0, overflowY: "auto" }}>
+          {children}
+        </main>
         <footer>
           <Footer />
         </footer>

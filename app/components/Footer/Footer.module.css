@@ -3,9 +3,11 @@
   justify-content: center;
   align-items: center;
 
-  padding: var(--space-04);
-  opacity: 0.8;
+  padding: var(--space-02);
+  opacity: 0.6;
   transition: opacity 0.2s ease;
+
+  font-size: 0.75rem;
 }
 
 .root:hover {

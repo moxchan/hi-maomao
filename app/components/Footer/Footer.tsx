@@ -4,6 +4,6 @@ export const Footer = () => {
   return (
     <div
       className={styles.root}
-    >{`Made by the coolest guy you'll ever meet`}</div>
+    >{`Made by the coolest guy you'll ever meet (mox)`}</div>
   );
 };
