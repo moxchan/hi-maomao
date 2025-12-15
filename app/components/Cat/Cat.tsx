@@ -1,4 +1,8 @@
+"use client";
+
 import { useState } from "react";
+
+import Image from "next/image";
 
 type CatState = "happy" | "sad" | "complete";
 
@@ -12,6 +16,6 @@ export const Cat = () => {
       return;
     case "happy":
     default:
-      return;
+      return <Image src="/happy.gif" alt={""} width={360} height={360} />;
   }
 };

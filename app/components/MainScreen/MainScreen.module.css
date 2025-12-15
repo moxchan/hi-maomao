@@ -1,0 +1,19 @@
+.root {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+}
+
+.buttonCluster {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+
+  padding: var(--space-03);
+  gap: var(--space-04);
+}

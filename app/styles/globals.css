@@ -2,9 +2,7 @@
 @import "./breakpoints.css";
 
 :root {
-  --bg: #fff7fb;
-  --bg-card: #ffffff;
-  --bg-accent: #ffe4ef;
+  --bg: #ffe4ef;
 
   --pink: #ff8fb1;
   --pink-soft: #ffd1e1;
@@ -19,6 +17,12 @@
   --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.08);
   --shadow-hover: 0 15px 40px rgba(255, 143, 177, 0.25);
 
+  --space-01: 0.25rem;
+  --space-02: 0.5rem;
+  --space-03: 1rem;
+  --space-04: 1.25rem;
+  --space-05: 1.5rem;
+
   --radius-sm: 8px;
   --radius-md: 14px;
   --radius-lg: 22px;
@@ -26,7 +30,14 @@
   --ease: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+html,
 body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
   font-family: "Poppins", system-ui, -apple-system, BlinkMacSystemFont,
     sans-serif;
   background-color: var(--bg);

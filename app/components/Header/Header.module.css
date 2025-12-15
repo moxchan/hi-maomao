@@ -1,0 +1,14 @@
+.root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: var(--space-02);
+  padding-bottom: var(--space-05);
+
+  opacity: 0.8;
+}
+
+.root:hover {
+  opacity: 1;
+}
