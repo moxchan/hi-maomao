@@ -1,5 +1,25 @@
 .root {
   display: flex;
 
-  padding: var(--space-01);
+  padding: var(--space-02) var(--space-05);
+  border-radius: var(--radius-sm);
+
+  font-size: 1rem;
+  transition: all 20ms ease;
+}
+
+.yes {
+  background-color: var(--button-green-primary);
+  border: 1px solid var(--button-green-dark);
+}
+
+.no {
+  background-color: var(--pink-soft);
+  border: 1px solid var(--pink);
+  transition: transform 0.15s ease;
+}
+
+.root:hover {
+  scale: 1.1;
+  cursor: pointer;
 }

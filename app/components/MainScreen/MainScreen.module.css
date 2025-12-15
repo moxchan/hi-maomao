@@ -28,3 +28,17 @@
   padding: var(--space-03);
   gap: var(--space-04);
 }
+
+.yay {
+  text-align: center;
+  padding: var(--space-02);
+  font-size: 1.5rem;
+  color: var(--purple);
+}
+
+.details {
+  text-align: center;
+
+  padding: var(--space-06) var(--space-02);
+  font-size: 1.5rem;
+}
