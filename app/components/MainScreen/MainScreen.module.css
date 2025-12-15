@@ -1,0 +1,30 @@
+.root {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+}
+
+.question {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+
+  text-align: center;
+
+  padding: var(--space-06) var(--space-02);
+  font-size: 1.5rem;
+}
+
+.buttonCluster {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+
+  padding: var(--space-03);
+  gap: var(--space-04);
+}
