@@ -4,10 +4,14 @@
 :root {
   --bg: #ffe4ef;
 
+  --purple: #a839b3;
   --pink: #ff8fb1;
   --pink-soft: #ffd1e1;
   --lavender: #cdb4db;
   --peach: #ffc8a2;
+
+  --button-green-primary: #b6ff75;
+  --button-green-dark: #97c96b;
 
   --text-primary: #2d2a32;
   --text-secondary: #6b6570;
