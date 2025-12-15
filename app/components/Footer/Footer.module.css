@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
 
-  padding: var(--space-02);
+  padding: var(--space-05);
   opacity: 0.6;
   transition: all 0.2s ease;
 
@@ -13,6 +13,6 @@
 
 .root:hover {
   opacity: 1;
-  scale: 1.05;
+  font-size: 0.8rem;
   cursor: pointer;
 }
