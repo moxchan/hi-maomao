@@ -14,6 +14,7 @@
   justify-self: center;
 
   text-align: center;
+  text-shadow: var(--shadow-soft);
 
   padding: var(--space-06) var(--space-02);
   font-size: 1.5rem;

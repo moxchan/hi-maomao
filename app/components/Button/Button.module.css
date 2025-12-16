@@ -3,6 +3,7 @@
 
   padding: var(--space-02) var(--space-05);
   border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-soft);
 
   font-size: 1rem;
   transition: all 20ms ease;
@@ -13,10 +14,18 @@
   border: 1px solid var(--button-green-dark);
 }
 
+.yes:hover {
+  background-color: var(--button-green-hover);
+}
+
 .no {
   background-color: var(--pink-soft);
   border: 1px solid var(--pink);
   transition: transform 0.15s ease;
+}
+
+.no:hover {
+  background-color: var(--pink);
 }
 
 .root:hover {

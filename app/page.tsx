@@ -1,7 +1,7 @@
 "use client";
 
-import { MainScreen } from "./components";
+import { IntroFlow } from "./components";
 
 export default function Home() {
-  return <MainScreen />;
+  return <IntroFlow />;
 }

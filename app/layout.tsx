@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./styles/globals.css";
 import { Footer, Header } from "./components";
+import { dynaPuff } from "./fonts";
 
 export const metadata: Metadata = {
   title: "hi maomao",
@@ -14,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+      <body className={dynaPuff.className}>
         <header>
           <Header />
         </header>
