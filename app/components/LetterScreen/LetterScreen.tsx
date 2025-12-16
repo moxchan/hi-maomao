@@ -3,7 +3,7 @@ import { LetterText } from "..";
 
 import styles from "./LetterScreen.module.css";
 
-const TYPING_DURATION = 5;
+const TYPING_DURATION = 3;
 
 export const LetterScreen = ({ onContinue }: { onContinue: () => void }) => {
   return (
