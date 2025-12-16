@@ -10,7 +10,7 @@ export const IntroFlow = () => {
   const [state, setState] = useState<IntroState>("letter");
 
   return (
-    <div className="relative h-screen w-screen overflow-hidden">
+    <div className="relative w-screen overflow-hidden">
       <AnimatePresence mode="wait">
         {state === "letter" && (
           <LetterScreen key="letter" onContinue={() => setState("main")} />
